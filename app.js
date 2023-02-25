@@ -107,3 +107,5 @@ app.put("players/playerId", async (request, response) => {
   await run(updateQuery);
   response.send("Player Details Updated");
 });
+
+module.exports = app;
